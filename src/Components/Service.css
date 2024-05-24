@@ -1,0 +1,43 @@
+/* Services.css */
+
+section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+    color: #007bff;
+  }
+  
+  h2 {
+    font-size: 1.25rem;
+    color: #28a745;
+  }
+  
+  h3 {
+    font-size: 1rem;
+    color: #dc3545;
+  }
+  
+  div {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 8px;
+  }
+  

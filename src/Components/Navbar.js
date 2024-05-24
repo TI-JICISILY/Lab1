@@ -7,20 +7,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import Logo from './Logo';
 
-const Navbar = () => {
+function Navbar() {
   return (
-    <nav>
-      <div className="logo">MyLogo</div>
-      <div className="links">
-        <Link to="/">Home</Link>
-        <Link to="/about">About Me</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/services">Services</Link>
-        <Link to="/contact">Contact</Link>
-      </div>
+    <nav className="navbar">
+      <Logo/>
+      <ul>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/projects">Projects</Link></li>
+        <li><Link to="/services">Services</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
+      </ul>
     </nav>
   );
-};
+}
 
 export default Navbar;

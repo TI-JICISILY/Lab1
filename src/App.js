@@ -20,16 +20,11 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          {/* Route for Home component */}
-          <Route path="/" exact component={Home} />
-          {/* Route for About component */}
-          <Route path="/about" component={About} />
-          {/* Route for Contact component */}
-          <Route path="/contact" component={Contact} />
-          {/* Route for Projects component */}
-          <Route path="/projects" component={Projects} />
-          {/* Route for Services component */}
-          <Route path="/services" component={Services} />
+        <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>

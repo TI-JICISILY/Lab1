@@ -5,7 +5,7 @@
   Date: 2024-05-24
 */
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import About from './Components/About';
@@ -19,7 +19,7 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-        <Switch>
+        <Routes>
           {/* Route for Home component */}
           <Route path="/" exact component={Home} />
           {/* Route for About component */}
@@ -30,7 +30,7 @@ function App() {
           <Route path="/projects" component={Projects} />
           {/* Route for Services component */}
           <Route path="/services" component={Services} />
-        </Switch>
+        </Routes>
       </div>
     </Router>
   );

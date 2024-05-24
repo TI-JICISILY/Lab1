@@ -1,6 +1,12 @@
+/*
+  File Name: Project.js
+  Student's Name: Tiji Cisily Jogy
+  StudentID: 301392663
+  Date: 2024-05-24
+*/
 import React from 'react';
 
-const Projects = () => {
+function Projects () {
   return (
     <section>
       <h2>Projects</h2>

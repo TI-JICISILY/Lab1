@@ -1,16 +1,17 @@
+/*
+  File Name: Service.js
+  Student's Name: Tiji Cisily Jogy
+  StudentID: 301392663
+  Date: 2024-05-24
+*/
 import React from 'react';
 
-const Services = () => {
+function Services() {
   return (
-    <section>
-      <h2>Services</h2>
-      <ul>
-        <li>Web Development</li>
-        <li>Mobile App Development</li>
-        <li>General Programming</li>
-      </ul>
-    </section>
+    <div>
+      <h1>Services</h1>
+    </div>
   );
-};
+}
 
 export default Services;

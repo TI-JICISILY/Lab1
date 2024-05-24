@@ -1,13 +1,17 @@
+/*
+  File Name: About.js
+  Student's Name: Tiji Cisily Jogy
+  StudentID: 301392663
+  Date: 2024-05-24
+*/
 import React from 'react';
 
-const About = () => {
+function About() {
   return (
-    <section>
-      <h2>About Me</h2>
-      <img src="/path-to-your-image.jpg" alt="Your Name" />
-      <p>Hello! My name is [Your Name]. I'm a web developer with a passion for creating beautiful and functional websites.</p>
-    </section>
+    <div>
+      <h1>About</h1>
+    </div>
   );
-};
+}
 
 export default About;

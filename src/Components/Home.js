@@ -1,13 +1,17 @@
+/*
+  File Name: Home.js
+  Student's Name: Tiji Cisily Jogy
+  StudentID: 301392663
+  Date: 2024-05-24
+*/
 import React from 'react';
 
-const Home = () => {
+function Home() {
   return (
-    <header>
-      <h1>Welcome to My Portfolio</h1>
-      <p>Your mission statement goes here.</p>
-      <a href="/about">Learn more about me</a>
-    </header>
+    <div>
+      <h1>Home</h1>
+    </div>
   );
-};
+}
 
 export default Home;

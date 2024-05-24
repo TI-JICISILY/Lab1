@@ -1,13 +1,17 @@
+/*
+  File Name: Contact.js
+  Student's Name: Tiji Cisily Jogy
+  StudentID: 301392663
+  Date: 2024-05-24
+*/
 import React from 'react';
 
-const Contact = () => {
+function Contact() {
   return (
-    <section>
-      <h2>Contact Me</h2>
-      <p>Email: your.email@example.com</p>
-      <p>Phone: (123) 456-7890</p>
-    </section>
+    <div>
+      <h1>Contact</h1>
+    </div>
   );
-};
+}
 
 export default Contact;

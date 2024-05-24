@@ -1,3 +1,9 @@
+/*
+  File Name: Navbar.js
+  Student's Name: Tiji Cisily Jogy
+  StudentID: 301392663
+  Date: 2024-05-24
+*/
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
